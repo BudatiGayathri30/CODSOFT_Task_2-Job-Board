@@ -1,0 +1,138 @@
+[
+  {
+    "id": 1,
+    "title": "Frontend Developer",
+    "company": "TechNova",
+    "location": "New York, USA",
+    "type": "Full-time",
+    "description": "Create amazing user interfaces using React.",
+    "posted": "2025-04-01"
+  },
+  {
+    "id": 2,
+    "title": "Backend Developer",
+    "company": "DataForge",
+    "location": "Berlin, Germany",
+    "type": "Remote",
+    "description": "Develop scalable Node.js APIs.",
+    "posted": "2025-04-02"
+  },
+  {
+    "id": 3,
+    "title": "UI/UX Designer",
+    "company": "DesignGrid",
+    "location": "London, UK",
+    "type": "Part-time",
+    "description": "Design clean, user-friendly interfaces.",
+    "posted": "2025-04-03"
+  },
+  {
+    "id": 4,
+    "title": "Mobile App Developer",
+    "company": "Appify",
+    "location": "Toronto, Canada",
+    "type": "Full-time",
+    "description": "Build cross-platform mobile apps using Flutter.",
+    "posted": "2025-04-04"
+  },
+  {
+    "id": 5,
+    "title": "DevOps Engineer",
+    "company": "CloudNet",
+    "location": "Remote",
+    "type": "Full-time",
+    "description": "Manage CI/CD pipelines and cloud deployments.",
+    "posted": "2025-04-05"
+  },
+  {
+    "id": 6,
+    "title": "Data Scientist",
+    "company": "DeepData",
+    "location": "San Francisco, USA",
+    "type": "Full-time",
+    "description": "Analyze data and build predictive models.",
+    "posted": "2025-04-06"
+  },
+  {
+    "id": 7,
+    "title": "Machine Learning Engineer",
+    "company": "AIWorks",
+    "location": "Bangalore, India",
+    "type": "Contract",
+    "description": "Deploy and optimize ML models in production.",
+    "posted": "2025-04-07"
+  },
+  {
+    "id": 8,
+    "title": "Cybersecurity Analyst",
+    "company": "SecureIT",
+    "location": "Washington DC, USA",
+    "type": "Full-time",
+    "description": "Monitor and secure infrastructure from threats.",
+    "posted": "2025-04-08"
+  },
+  {
+    "id": 9,
+    "title": "QA Tester",
+    "company": "BugSquashers",
+    "location": "Madrid, Spain",
+    "type": "Part-time",
+    "description": "Test web and mobile applications.",
+    "posted": "2025-04-09"
+  },
+  {
+    "id": 10,
+    "title": "Product Manager",
+    "company": "InnovaTech",
+    "location": "Paris, France",
+    "type": "Full-time",
+    "description": "Lead product development and strategy.",
+    "posted": "2025-04-10"
+  },
+  {
+    "id": 11,
+    "title": "AI Researcher",
+    "company": "ThinkML",
+    "location": "Zurich, Switzerland",
+    "type": "Full-time",
+    "description": "Research and prototype new AI models.",
+    "posted": "2025-04-11"
+  },
+  {
+    "id": 12,
+    "title": "Tech Support Specialist",
+    "company": "HelpHero",
+    "location": "Austin, USA",
+    "type": "Full-time",
+    "description": "Assist users with technical issues and troubleshooting.",
+    "posted": "2025-04-12"
+  },
+  {
+    "id": 13,
+    "title": "Cloud Architect",
+    "company": "SkySystems",
+    "location": "Amsterdam, Netherlands",
+    "type": "Remote",
+    "description": "Design and manage scalable cloud architecture.",
+    "posted": "2025-04-13"
+  },
+  {
+    "id": 14,
+    "title": "Full Stack Developer",
+    "company": "StackWorks",
+    "location": "Melbourne, Australia",
+    "type": "Full-time",
+    "description": "Work on both frontend and backend web applications.",
+    "posted": "2025-04-14"
+  },
+  {
+    "id": 15,
+    "title": "Game Developer",
+    "company": "PixelPlay",
+    "location": "Tokyo, Japan",
+    "type": "Contract",
+    "description": "Create 2D/3D games using Unity and C#.",
+    "posted": "2025-04-15"
+  }
+
+]

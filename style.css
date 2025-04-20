@@ -1,0 +1,173 @@
+/* style.css */
+
+/* Basic Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Segoe UI', sans-serif;
+  background: #f5f7fa;
+  color: #333;
+  line-height: 1.6;
+}
+
+header.hero {
+  background: linear-gradient(135deg, #ff7e5f, #feb47b);
+  color: white;
+  padding: 60px 20px;
+  text-align: center;
+  border-radius: 0 0 20px 20px;
+  animation: fadeInDown 1s ease;
+}
+
+@keyframes fadeInDown {
+  from {
+    opacity: 0;
+    transform: translateY(-20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+h1, h2 {
+  margin-bottom: 20px;
+}
+
+main {
+  padding: 20px;
+  max-width: 1000px;
+  margin: auto;
+}
+
+/* Jobs List */
+#jobs-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+  gap: 20px;
+  animation: fadeIn 1.2s ease-in-out;
+}
+
+.job-card {
+  background: #ffffff;
+  border-left: 5px solid #667eea;
+  border-radius: 12px;
+  padding: 20px;
+  box-shadow: 0 6px 18px rgba(0,0,0,0.1);
+  transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.job-card:hover {
+  transform: scale(1.02);
+  box-shadow: 0 10px 24px rgba(0,0,0,0.15);
+}
+
+.job-card h3 {
+  color: #2b6cb0;
+}
+
+.job-card .company {
+  font-weight: bold;
+  color: #48bb78;
+}
+
+/* Forms */
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+form input, form textarea, form button, form select {
+  padding: 10px;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+  font-size: 1rem;
+}
+
+form button {
+  background-color: #667eea;
+  color: white;
+  cursor: pointer;
+  border: none;
+  transition: background 0.3s;
+}
+
+form button:hover {
+  background-color: #5a67d8;
+}
+
+input[type="file"] {
+  border: none;
+}
+
+/* Navigation Bar */
+nav {
+  background: #1f2937;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 2rem;
+  position: sticky;
+  top: 0;
+  z-index: 100;
+  transition: background 0.3s;
+}
+
+nav .logo {
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: #fbbf24;
+}
+
+nav a {
+  color: white;
+  margin-left: 15px;
+  text-decoration: none;
+  font-weight: bold;
+  transition: color 0.3s;
+}
+
+nav a:hover {
+  color: #fbbf24;
+}
+
+/* Auth Container */
+.auth-container {
+  background: white;
+  max-width: 500px;
+  margin: auto;
+  padding: 20px;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+  margin-top: 40px;
+  animation: fadeIn 1.2s ease;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* Responsive */
+@media (max-width: 600px) {
+  nav {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  nav a {
+    margin: 10px 0;
+  }
+}
